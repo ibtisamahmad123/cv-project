@@ -1,3 +1,62 @@
-H2 {
-    color: blue;
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the profile picture */
+img {
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Style the main content */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the contact information */
+h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Style the unordered lists */
+ul {
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+/* Style the table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the table header cells */
+th {
+    background-color: #333;
+    color: white;
 }
