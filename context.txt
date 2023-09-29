@@ -1,0 +1,3 @@
+My name is ibtisam.
+My task was to make a cv using html file.
+The second task was to colorize it using css.
