@@ -1,62 +1,59 @@
-/* Apply styles to the entire page */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     text-align: center;
+    background-color: #f8f8f8; 
+    color: #333; 
 }
 
-/* Style the profile picture */
 img {
     border-radius: 50%;
-    display: block;
-    margin: 20px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 4px solid #3498db; 
 }
 
-/* Style headings */
 h1, h2, h3 {
-    color: #333;
+    font-weight: bold;
+    color: #3498db; 
 }
 
-/* Style the main content */
 p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5; 
 }
 
-/* Style the contact information */
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
+    color: #27ae60; 
 }
 
-/* Style the unordered lists */
 ul {
-    list-style-type: square;
-    margin-left: 30px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-/* Style the table */
+li {
+    margin-bottom: 5px;
+}
+
 table {
     width: 80%;
     margin: 20px auto;
     border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid #333;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
     padding: 10px;
-    text-align: left;
+    border: 1px solid #dcdcdc; 
 }
 
-/* Style the table header cells */
+
 th {
-    background-color: #333;
-    color: white;
+    background-color: #3498db;
+    color: #fff;
 }
